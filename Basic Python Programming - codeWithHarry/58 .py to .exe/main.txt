@@ -1,0 +1,4 @@
+# first to convert .py to .exe we have to install pyinstaller or pip install pyinstaller=3.6
+# and then python -m PyInstaller main.txt and python -m PyInstaller --onefile main.txt for single file
+print("Which are the numbers you want to add")
+print(int(input()) + int(input()))

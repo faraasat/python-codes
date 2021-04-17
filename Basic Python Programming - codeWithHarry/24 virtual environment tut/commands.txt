@@ -1,0 +1,8 @@
+pip install virtualenv  => to set up virtual environment
+virtualenv folderName  => to create virtual environment files with given folderName
+.\folderName\Scripts\activate  => to activate virtual environment
+deactivate  => to deactivate virtual environment
+pip freeze > requirement.txt  => to create a file hich contains module names
+pip install numpy==1.15.4  => to install given version of pip
+pip install -r .\requirements.txt  => to install dependencies from txt files
+virtualenv --system-site-packages folderName  => create virtual environment with system packages
